@@ -1,0 +1,6 @@
+# dsh-rightclick bundle patch：把本包的 Client 行插入 Web roster。
+# 菜单完全在浏览器半实现（contextmenu 监听 + shell.overlay 浮层），Host 半无职责，
+# 因此这里只插一行；package.json 的 dsh.client 让同一行同时装配客户端模块。
+- insert:
+    - id: rightclick
+      name: 'dsh-rightclick'
