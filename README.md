@@ -199,3 +199,9 @@ if (el.closest('[data-slot="sidebar.workspaces"]') && !el.closest('[data-row-key
 - 复制的兜底取的是消息节点的 `innerText`，因此会包含消息里**可见**的文本（hover 才出现的按钮文字不计入）。
 - 菜单浮层在 `shell.overlay`（`z-index:20`）内；若有 portal 到 body 的更高层弹窗打开，菜单会被它遮住。
 - 选择器依赖 DSH 0.2.x 的 `data-*` 契约；上游改名会让 `scripts/check.mjs` 的选择器契约检查先失败。
+
+---
+
+## 许可证
+
+[MIT](LICENSE) © 2026 Depar7ure
